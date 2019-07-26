@@ -7,4 +7,5 @@ package com.ucar.springbootdemo.pojo;
  * @create: 2019-07-26 10:15
  */
 public class test {
+    private String uer;
 }
