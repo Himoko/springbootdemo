@@ -8,4 +8,5 @@ package com.ucar.springbootdemo.pojo;
  */
 public class test {
     private String uer;
+    private String uer1;
 }
