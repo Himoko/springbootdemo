@@ -1,7 +1,7 @@
 spring:
   datasource:
     url: jdbc:mysql://10.112.74.155:3306/himoko?characterEncoding=UTF-8&useSSL=true&serverTimezone=GMT
-    username: root
+    username: himoko
     password: 123456
     # 可省略驱动配置, sprin-boot 会由url检测出驱动类型
     # driver-class-name: com.mysql.cj.jdbc.Driver
