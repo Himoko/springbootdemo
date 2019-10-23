@@ -24,4 +24,12 @@ public class UserController {
         Result result = userService.selectUserById();
         return result;
     }
+
+    @RequestMapping("/getInfo")
+    public Result getInfo(){
+        Result result = new Result();
+        result.setCode(200);
+        result.setMessage("我是五六七啊！");
+        return result;
+    }
 }
